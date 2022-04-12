@@ -22,6 +22,9 @@ body {
 img {
   display: block;
 }
+.link {
+  text-decoration: none;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -91,7 +94,6 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -113,7 +115,6 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .info-nav .link:hover,
 .info-nav .link:focus {
@@ -314,11 +315,6 @@ img {
   font-size: 26px;
 
   margin-bottom: 20px;
-}
-.section-footer p {
-  font-style: normal;
-  margin-bottom: 9px;
-  margin-top: 0;
 }
 .section-footer > .footer-contact {
   margin-bottom: 9px;
